@@ -1,0 +1,25 @@
+{
+	"name": {
+		"en": "Microbit Gigo Robot",
+		"el": "Microbit Gigo Robot"
+	},
+	"description": {
+		"en": "Microbit Gigo Robot",
+		"el": "Microbit Gigo Robot"
+	},
+	"author": "ale3andro",
+	"email": "ale3andro@gmail.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "alxGigo",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["microbit"],
+			"main": "main.ts"
+		}
+	}
+}
