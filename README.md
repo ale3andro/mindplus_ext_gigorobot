@@ -8,6 +8,14 @@
 
 ---------------------------------------------------------
 
+## Άλλα διαθέσιμα Mind+ πρόσθετα για κιτ Ρομποτικής Πρωτοβάθμιας
+
+[Mind+ offline extension για Polytech S1](https://gitlab.com/ale3andro/mindplus_ext_s1)
+
+[Mind+ offline extension για Polytech R2](https://gitlab.com/ale3andro/mindplus_ext_r2)
+
+---------------------------------------------------------
+
 ## Τι είναι το Gigo Robot
 
 Το Gigo Robot είναι ένα κιτ ρομποτικής που βασίζεται στο Microbit.
