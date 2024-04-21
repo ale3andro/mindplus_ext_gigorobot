@@ -212,7 +212,7 @@ namespace alxS1 {
     //% block="Gigo Κινητήρας στη θύρα [PORT], κατεύθυνση [DIRECTION] και ταχύτητα [SPEED]" blockType="command"
     //% PORT.shadow="dropdown" PORT.options="MOTOR_PORTS" PORT.defl="MOTOR_PORTS.E"
     //% DIRECTION.shadow="dropdown" DIRECTION.options="DIRECTIONS" DIRECTION.defl="DIRECTIONS.1023"
-    //% SPEED.shadow="range" SPEED.defl="127" SPEED.params.max="255"
+    //% SPEED.shadow="range" SPEED.defl="127" SPEED.params.max="1023"
     export function setMotorDirectionAndSpeed(parameter: any, block: any) {
         let port = parameter.PORT.code;
         let port_for_speed = 0;
