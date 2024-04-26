@@ -14,6 +14,8 @@
 
 [Mind+ offline extension για Polytech R2](https://gitlab.com/ale3andro/mindplus_ext_r2)
 
+[Mind+ offline extension για Otto Robot](https://gitlab.com/ale3andro/mindplus_ext_otto)
+
 ---------------------------------------------------------
 
 ## Τι είναι το Gigo Robot
