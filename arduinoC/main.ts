@@ -117,7 +117,7 @@ enum LED_STATES {
 //% color="#1c0dbd" iconWidth=50 iconHeight=40
 namespace alxS1 {
 
-    //% block="Gigo Διάβασε θερμοκρασία" blockType="reporter"
+    //% block="Διάβασε θερμοκρασία" blockType="reporter"
     export function getTemperature(parameter: any, block: any) {
         if(Generator.board === 'microbit'){
             Generator.addInclude("Microbit Sensors","#include <Microbit_Sensors.h>");
@@ -125,7 +125,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo Διάβασε πυξίδα" blockType="reporter"
+    //% block="Διάβασε πυξίδα" blockType="reporter"
     export function getCompassHeading(parameter: any, block: any) {
         if(Generator.board === 'microbit'){
             Generator.addInclude("Microbit Sensors","#include <Microbit_Sensors.h>");
@@ -133,7 +133,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo Διάβασε επίπεδο φωτός" blockType="reporter"
+    //% block="Διάβασε επίπεδο φωτός" blockType="reporter"
     export function getLightLevel(parameter: any, block: any) {
         if(Generator.board === 'microbit'){
             Generator.addInclude("Microbit Matrix","#include <Microbit_Matrix.h>");
@@ -141,7 +141,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo Ρύθμιση φωτεινότητας led σε [LEVEL]" blockType="command"
+    //% block="Ρύθμιση φωτεινότητας led σε [LEVEL]" blockType="command"
     //% LEVEL.shadow="dropdown" LEVEL.options="LIGHT_LEVELS" BUTTON.defl="LIGHT_LEVELS.9"
     export function setBrightness(parameter: any, block: any) {
         let level = parameter.LEVEL.code;
@@ -151,7 +151,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo Σέρβο στη θύρα [PORT] όρισε γωνία [ANGLE]" blockType="command"
+    //% block="Σέρβο στη θύρα [PORT] όρισε γωνία [ANGLE]" blockType="command"
     //% PORT.shadow="dropdown" PORT.options="SERVO_PORTS" BUTTON.defl="SERVO_PORTS.1"
     //% ANGLE.shadow="range" ANGLE.defl="90" ANGLE.params.max="180"
     export function setServoAngle(parameter: any, block: any) {
@@ -165,7 +165,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo Led στο pin [PORT] [STATE]" blockType="command"
+    //% block="Led στο pin [PORT] [STATE]" blockType="command"
     //% PORT.shadow="dropdown" PORT.options="LED_PORTS" PORT.defl="LED_PORTS.B"
     //% STATE.shadow="dropdown" STATE.options="LED_STATES" BUTTON.defl="LED_STATES.HIGH"
     export function setLedState(parameter: any, block: any) {
@@ -184,7 +184,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo Κουμπί πίεσης στο pin [PORT], είναι πατημένο;" blockType="boolean"
+    //% block="Κουμπί πίεσης στο pin [PORT], είναι πατημένο;" blockType="boolean"
     //% PORT.shadow="dropdown" PORT.options="BUTTON_PORTS" BUTTON.defl="BUTTON_PORTS.A"
     export function getPressButtonStatus(parameter: any, block: any) {
         let port=parameter.PORT.code;
@@ -200,7 +200,7 @@ namespace alxS1 {
         }
     }
 
-    //% block="Gigo αισθητήρας γραμμής στο pin [PORT], πατάει γραμμή;" blockType="boolean"
+    //% block="Αισθητήρας γραμμής στο pin [PORT], πατάει γραμμή;" blockType="boolean"
     //% PORT.shadow="dropdown" PORT.options="LINE_TRACKING_PORTS" BUTTON.defl="LINE_TRACKING_PORTS.1"
     export function getLineTrackingSensorValue(parameter: any, block: any) {
         let port=parameter.PORT.code;
@@ -209,7 +209,7 @@ namespace alxS1 {
         }
     }
     
-    //% block="Gigo Κινητήρας στη θύρα [PORT], κατεύθυνση [DIRECTION] και ταχύτητα [SPEED]" blockType="command"
+    //% block="Κινητήρας στη θύρα [PORT], κατεύθυνση [DIRECTION] και ταχύτητα [SPEED]" blockType="command"
     //% PORT.shadow="dropdown" PORT.options="MOTOR_PORTS" PORT.defl="MOTOR_PORTS.E"
     //% DIRECTION.shadow="dropdown" DIRECTION.options="DIRECTIONS" DIRECTION.defl="DIRECTIONS.1023"
     //% SPEED.shadow="range" SPEED.defl="127" SPEED.params.max="1023"
