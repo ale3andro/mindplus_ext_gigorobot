@@ -240,6 +240,16 @@ namespace alxS1 {
         }
     }
 
+    //% block="Εμφάνισε διψήφιο ακέραιο [NUMBER]" blockType="command"
+    //% NUMBER.shadow="range" NUMBER.defl="11" NUMBER.params.max="99"
+    export function showTwoDigitNumber(parameter: any, block: any) {
+        let number = parameter.NUMBER.code;
+        if(Generator.board === 'microbit'){
+            Generator.addInclude("Microbit Matrix","#include <Microbit_Matrix_alx.h>");
+            Generator.addCode(`AlxMatrix.drawTwoDigitNumber(${number});`);
+        }
+    }
+    
     function replace(str :string) {
         return str.replace("+", "");
     }
