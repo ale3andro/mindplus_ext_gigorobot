@@ -47,6 +47,7 @@ void Microbit_Matrix_alx::drawPixel(int16_t x, int16_t y, uint16_t color) {
 void Microbit_Matrix_alx::drawTwoDigitNumber(int number) {
   if (number<0 || number>99) {
     // TODO - Display a sad face / emoji 
+    show(ANGRY);
     return;
   }
   int monades = number%10;
