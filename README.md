@@ -79,7 +79,4 @@
 
 [Σελίδα 1](Συνοδευτικό_υλικό/inventory_page1.png)
 
-## License
-
-MIT
 
