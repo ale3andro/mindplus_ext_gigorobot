@@ -1,11 +1,11 @@
 {
 	"name": {
-		"en": "Microbit Gigo Robot",
-		"el": "Microbit Gigo Robot"
+		"en": "GigoRobot (v.0.1)",
+		"el": "GigoRobot (v.0.1)"
 	},
 	"description": {
-		"en": "Microbit Gigo Robot",
-		"el": "Microbit Gigo Robot"
+		"en": "GigoRobot (v.0.1)",
+		"el": "GigoRobot (v.0.1)"
 	},
 	"author": "ale3andro",
 	"email": "ale3andro@gmail.com",
@@ -13,11 +13,11 @@
 	"isBoard": false,
 	"id": "alxGigo",
 	"platform": ["win", "mac", "web"],
-	"version": "0.2",
+	"version": "0.1",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "0.2",
+			"version": "0.1",
 			"board": ["microbit"],
 			"main": "main.ts"
 		}

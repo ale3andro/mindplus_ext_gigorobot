@@ -90,4 +90,8 @@
 
 [Σελίδα 1](Συνοδευτικό_υλικό/inventory_page1.png)
 
+## Συνοδευτικό Υλικό επιμόρφωσης (βιβλίο με οδηγίες κατασκευών)
+
+Διαθέσιμο [εδώ](https://1drv.ms/f/c/a520b121fb97e877/EogaJyGkqnBHox6i0py0VycBTnFd7TnpEwSkteAFMKRxDA?e=fyd0uU)
+
 
