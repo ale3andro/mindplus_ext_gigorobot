@@ -22,6 +22,8 @@
 
 [![](./Συνοδευτικό_υλικό/mind+gigorobot.png)](https://mega.nz/file/RB4xmKiJ#QoEvkj45Ko7v1WjbageW6OOAjzeq3Ozi_HCMMoJA7gY)
 
+Αν δεν ξέρεις πως να χρησιμοποιήσεις το παραπάνω αρχείο, δες [εδώ](usage.md).
+
 ---------------------------------------------------------
 
 
