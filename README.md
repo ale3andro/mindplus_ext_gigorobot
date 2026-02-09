@@ -20,7 +20,7 @@
 
 Για να κατεβάσεις το αρχείο, κάνε κλικ στην παρακάτω εικόνα:
 
-[![](./Συνοδευτικό_υλικό/mind+gigorobot.png)](https://mega.nz/file/RB4xmKiJ#QoEvkj45Ko7v1WjbageW6OOAjzeq3Ozi_HCMMoJA7gY)
+[![](./Συνοδευτικό_υλικό/mind+gigorobot.png)](https://github.com/ale3andro/mindplus_ext_gigorobot/raw/refs/heads/main/latest_project_file/gigo.mp)
 
 Αν δεν ξέρεις πως να χρησιμοποιήσεις το παραπάνω αρχείο, δες [εδώ](usage.md).
 

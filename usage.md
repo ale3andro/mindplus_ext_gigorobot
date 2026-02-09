@@ -1,6 +1,6 @@
 # Χρήση του πρόσθετου
 
-(0) Κατεβάζεις ένα έργο Mind+ (saved project) από [εδώ](), το οποίο περιέχει ενσωματωμένο το πρόσθετο.
+(0) Κατεβάζεις ένα έργο Mind+ (saved project) από [εδώ](https://github.com/ale3andro/mindplus_ext_gigorobot/raw/refs/heads/main/latest_project_file/gigo.mp), το οποίο περιέχει ενσωματωμένο το πρόσθετο.
 
 (1) Κατεβάζεις την εφαρμογή Mind+ από [εδώ](https://mindplus.cc/), αν φυσικά δεν την έχεις ήδη. Εναλλακτικά μπορείς να κατεβάσεις το εξαιρετικό Mind+ Custom Build του συνάδελφου Βαγγέλη Μίχα από [εδώ](https://github.com/vmihas/MindPlus-Custom-Build/releases/tag/1.1).
 
